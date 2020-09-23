@@ -38,7 +38,6 @@ namespace Robots
             outputString.Append(" m² Rasen mit ");
             outputString.Append($"{MaxSpeed:.0}");
             outputString.Append(" km/H mähen");
-            base.BuildString();
             return outputString.ToString();
         }
     }
